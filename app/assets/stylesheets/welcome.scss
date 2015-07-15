@@ -124,3 +124,56 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	left: 618px;
 	top: 403px;
 }
+#profile {
+	position:absolute;
+	width:170px;
+	height:200px;
+	z-index:1;
+	left: 417px;
+	top: 198px;
+	opacity: 0;
+}
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+.container          {max-width: 100%; height: auto;}
+// nav section, .menu  {text-align: center;}
+// .menu            	{list-style-type: none;}
+// .menu ul li         {display: inline;}
+// .menu ul li a       {color: #CC1C0D; text-decoration: none; font-weight: 600;}
+// select              {width: 95%;}
+// .menu				{display:none;}
+//
+// /* Larger than mobile */
+// @media (min-width: 400px) {
+//     .menu           {text-align: center; }
+//     .menu ul        {margin:0 0 20px 0;}
+//     .menu ul li     {margin:0 10px;}
+//     .menu ul li a   {font-size: 90%;}
+// }
+//
+// /* Larger than phablet (also point when grid becomes active) */
+// @media (min-width: 550px) {
+//     .menu           {text-align: right; display: block;}
+//     .menu ul        {margin: 50px 0 0 0;}
+//     .menu ul li     {margin:0 3px;}
+//     .menu ul li a   {font-size: 75%;}
+// 	.slicknav_menu 	{display:none;}
+// }
+//
+// /* Larger than tablet */
+// @media (min-width: 750px) {
+//     .menu ul li     {margin-left: 20px;}
+//     .menu ul li a   {font-size: 100%;}
+// }
+//
+// /* Larger than desktop */
+// @media (min-width: 1000px) {}
+//
+// /* Larger than Desktop HD */
+// @media (min-width: 1200px) {}
