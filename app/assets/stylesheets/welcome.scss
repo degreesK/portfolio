@@ -25,14 +25,15 @@ body {
 	position: relative;
 }
 
-// .mousehover {
-// 	filter: Glow;
-// }
-
 ul.nav-button-list {
-	padding-top: 100vh;
+	padding-left: 0;
 }
 
+.arrow-list {
+	padding-top: 90vh;
+}
+
+/*Media query 0-720 */
 ul.nav-button-list > li {
 	text-align: center;
 	display: block;
@@ -46,13 +47,23 @@ ul.nav-button-list > li {
 	line-height: 6em;
 }
 
-#about {
-
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-top: 60px solid #f00;
+	// padding-top: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10%;
+	display: block;
 }
 
-
-
 @media (min-width: 720px) {
+	.arrow-down {
+		display: none;
+	}
 
 	ul.nav-button-list {
 		padding: 0;
@@ -64,29 +75,54 @@ ul.nav-button-list > li {
 		background-color: #5b387a;
 		margin: 2em;
 		margin-top: 10%;
-		border-color: white;
+		border-color: black;
 		border-width: thin;
 		border-style: solid;
-		width: 40%;
-		height: 6em;
+		width: 30%;
+		height: 5em;
 		line-height: 6em;
 	}
 
 	ul.nav-button-list > li:hover {
-		background-color: red;
-		padding: 10px;
+		background-color: white;
+		filter: opacity(.5);
+		padding: 5px;
 	}
-}
-.arrow-down {
-	width: 0;
-	height: 0;
-	border-left: 60px solid transparent;
-	border-right: 60px solid transparent;
-	border-top: 60px solid #f00;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10%;
-	display: block;
+
+	#about:hover {
+		font-size: 1.5em;
+		filter: opacity(2%);
+	}
+	#about {
+		margin-left: 38%;
+		margin-top: 21%;
+		width: 25%;
+		height: 10em;
+		background: transparent;
+	  border: none !important;
+		font-size:0;
+		color: black
+	}
+
+	#web {
+		margin-left: 6%;
+		margin-left: 38%;
+		margin-top: 21%;
+		width: 25%;
+		height: 10em;
+	}
+
+	#graphics {
+		margin-left: 23%;
+	}
+
+	#multimedia {
+		margin-left: 6%;
+	}
+
+	#art {
+		margin-left: 6%;
+	}
 }
 
 @media (min-width: 900px) {
