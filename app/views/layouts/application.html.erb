@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"/>
   <title>Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="stylesheets/welcome.scss">
+  <!-- <link rel="stylesheet" href="css/normalize.css"/> -->
+  <!-- <link rel="stylesheet" href="stylesheets/welcome.scss"/> -->
+  <link rel="stylesheet" media="(max-width: 640px)" href="max-640px.css">
+    <link rel="stylesheet" media="(min-width: 640px)" href="min-640px.css">
+    <link rel="stylesheet" media="(orientation: portrait)" href="portrait.css">
+    <link rel="stylesheet" media="(orientation: landscape)" href="landscape.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
   	<script src="js/jquery.mobilemenu.js"></script>
   	<script>
@@ -20,6 +24,8 @@
 <body>
 
 <%= yield %>
+
+
 
 </body>
 </html>
