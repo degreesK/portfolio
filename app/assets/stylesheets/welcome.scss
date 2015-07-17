@@ -14,6 +14,7 @@ body {
 	background: #000;
 	margin: 0;
 	padding: 0;
+	color: white;
 }
 
 /*Quadrant design with center logo */
@@ -30,7 +31,6 @@ body {
 }
 
 
-
 /*Media query 0-720 CELL/SMART PHONES*/
 ul.nav-button-list {
 	padding-left: 0;
@@ -44,9 +44,6 @@ ul.nav-button-list > li {
 	text-align: center;
 	display: block;
 	margin: 1em auto 1em auto;
-	border-color: white;
-	border-width: thin;
-	border-style: solid;
 	width: 40%;
 	height: 6em;
 	line-height: 6em;
@@ -55,9 +52,9 @@ ul.nav-button-list > li {
 .arrow-down {
 	width: 0;
 	height: 0;
-	border-left: 60px solid transparent;
-	border-right: 60px solid transparent;
-	border-top: 60px solid #b80909;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 25px solid #b80909;
 	// padding-top: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -65,8 +62,21 @@ ul.nav-button-list > li {
 	display: block;
 }
 
-#about {
+.button {
+	display: block;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	line-height: 6em;
+}
+
+#about-mobile {
 	border: thick solid white;
+}
+
+#about-desktop {
+	display: none;
 }
 
 #web {
@@ -84,11 +94,31 @@ ul.nav-button-list > li {
 #art {
 	border: thick solid #2f3083;
 }
+
 /*END Media query 0-720 CELL/SMART PHONES*/
 
 
 /*Media query 720-900 */
 @media (min-width: 720px) {
+
+	// .button {
+	// 	display: block;
+	// 	text-align: center;
+	// 	margin: auto;
+	// 	width: 100%;
+	// 	height: 100%;
+	// 	line-height: 6em;
+	// }
+	// 	.button {
+	// 	text-align: center;
+	// 	display: block;
+	// 	margin: 1em auto 1em auto;
+	// 	width: 10%;
+	// 	height: 6em;
+	// 	line-height: 6em;
+	// 	padding-left: 0;
+	// }
+
 	.background-container{
 		position: relative;
 	}
@@ -120,12 +150,18 @@ ul.nav-button-list > li {
 	}
 
 	ul.nav-button-list > li:hover {
-		// background-color: white;
-		filter: opacity(10%);
-		padding: 5px;
+		padding: 7px;
+		display: inline-block;
+		background-color: #b80909;
+		margin: 2em;
+		margin-top: 10%;
+		border: none;
+		width: 25%;
+
 	}
 
-	#about {
+	#about-desktop {
+		display: block;
 		margin-top: auto;
 		margin-bottom: auto;
 		position: absolute;               /* 2 */
@@ -138,7 +174,11 @@ ul.nav-button-list > li {
 		border: none;
 	}
 
-	#about .button {
+	#about-mobile {
+		display: none;
+	}
+
+	#about-desktop .button {
 		display: none;
 		border: none;
 		height: 100%;
@@ -147,16 +187,16 @@ ul.nav-button-list > li {
 		// left: 9.4em;
 	}
 
-	#about:hover .button {
+	#about-desktop:hover .button {
 		color: white;
 		text-decoration: none;
-		font-weight: 700;
+		font-weight: 500;
 		font-size: 2em;
 		text-align: center;
 		line-height: 5.2em;
-		filter: opacity(.5);
+		margin-left: auto;
+		margin-right: auto;
 		display: block;
-
 	}
 
 	#web {
