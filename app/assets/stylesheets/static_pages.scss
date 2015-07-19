@@ -1,27 +1,3 @@
-// a {
-// 	text-decoration: none;
-// 	color: white;
-// }
-// .background-container-about {
-// 	// width: 100vw;
-// 	// height: 100vh;
-// 	background-color: #000;
-// }
-//
-// li {
-//   display: inline;
-// }
-//
-// ul.nav-button-list {
-// 	display: none;
-// }
-
-
-// .background-container-index {
-//   display: none;
-// }
-
-
 body#container-about {
   background-color: black;
 }
@@ -40,4 +16,120 @@ body#container-multi {
 
 body#container-art {
   background-color: #2f3083;
+}
+
+ul.nav-button-list-pages {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  display: block;
+  width: 60px;
+}
+
+ul.nav-button-list-pages > li {
+  float: left;
+  text-align: left;
+  padding: 20px;
+  margin-left: 5px;
+  margin-top: -70px;
+  // font-weight: 600;
+
+  font-weight: bold;
+  text-shadow:3px 3px 9px black;
+}
+
+.hit-the-floor {
+  text-align: center;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+li#home-page :visited {
+  color: #b80909;
+}
+
+li#home-page :active {
+  color: yellow;
+}
+
+li#about-page :visited {
+  color: grey;
+}
+
+li#about-page :active {
+  color: yellow;
+}
+
+li#web-page :visited {
+  color: #5b387a;
+}
+
+li#web-page :active {
+  color: yellow;
+}
+
+li#graphics-page :visited {
+  color: #3f793c;
+}
+
+li#graphics-page :active {
+  color: yellow;
+}
+
+li#multi-page :visited {
+  color: #0e5978;
+}
+
+li#multi-page :active {
+  color: yellow;
+}
+
+li#art-page :visited {
+  color: #2f3083;
+}
+
+li#art-page :active {
+  color: yellow;
+}
+
+ul.nav-button-list-pages > li :active {
+    color: yellow;
+}
+
+// @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+ul.nav-button-list-pages > li :hover {
+  text-align:center;
+  color:#fff;
+  letter-spacing: 3px;
+  font-weight:600;
+  // text-transform:uppercase;
+  animation:blur .50s ease-out;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #fff;
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 80px #7B96B8,
+      0px 5px 50px #7B96B8,
+      0px 5px 50px #7B96B8,
+      0px 5px 50px #7B96B8,
+      0px 5px 50px #7B96B8,
+      0px -5px 50px #7B96B8,
+      0px -5px 50px #7B96B8;}
 }
