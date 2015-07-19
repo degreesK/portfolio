@@ -16,26 +16,28 @@
 // 	display: none;
 // }
 
-// #about-desktop {
-//   background-color: black;
+
+// .background-container-index {
+//   display: none;
 // }
-//
-// #about-mobile {
-//   background-color: black;
-// }
-//
-// #web {
-//   background-color: #5b387a;
-// }
-//
-// #graphics {
-//   background-color: #3f793c;
-// }
-//
-// #multi {
-//   background-color: #0e5978;
-// }
-//
-// #art {
-//   background-color: #2f3083;
-// }
+
+
+body#container-about {
+  background-color: black;
+}
+
+body#container-web {
+  background-color: #5b387a;
+}
+
+body#container-graphics {
+  background-color: #3f793c;
+}
+
+body#container-multi {
+  background-color: #0e5978;
+}
+
+body#container-art {
+  background-color: #2f3083;
+}
