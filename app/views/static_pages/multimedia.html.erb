@@ -1,4 +1,5 @@
-<body id="container-multi"></body>
+<html>
+<body id="container-multi">
 
 <ul class="nav-button-list-pages">
 
@@ -29,8 +30,14 @@
 </div>
 
 <div id="gunk">
-  <p>
-
+  <p>This is a banner ad made in Adobe Flash. I created the images, animation, concept, and product name. <br>
+    Note: This may not be viewable on tablets and phones.
   </p>
-  <img src="/images/solidgunkbanner.gif" alt="Solid Gunk banner ad" style="width:300px;height:100px;">
+  <!-- <%= image_tag("solidgunkbanner.swf", class:"solidgunkbanner", alt:"Solid Gunk animated banner ad") %> -->
+  <embed src="<%= asset_path('solidgunkbanner.swf') %>"
+       type="application/x-shockwave-flash" width="560" height="70"/>
 </div>
+
+
+</body>
+</html>
