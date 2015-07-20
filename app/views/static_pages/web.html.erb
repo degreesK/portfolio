@@ -9,3 +9,34 @@
   <li id="multi-page"><a href="/static_pages/multimedia.html" class="button">Multimedia</a></li>
   <li id="art-page"><a href="/static_pages/art.html" class="button">Art</a></li>
 </ul>
+
+<div class="web-info">
+  <h1>Web Development</h1><br>
+<p>
+  I'm a full stack Web Developer (Jr.). I mainly work in Ruby on Rails, with all the rest that works with Rails. Below is a form created in Rails. Please fill in your name, email, and comments! <br>
+  Code I've done and continue to work on can be seen at my <strong><a href="https://github.com/degreesK">Github profile</a></strong>.
+</p>
+
+<div id="comments_form">
+  <% if @comment.errors.any? %>
+    <ul>
+      <% @comment.errors.full_messages.each do |msg| %>
+          <li>
+          <%= msg %>
+          </li>
+      <% end %>
+    </ul>
+  <% end %>
+  <%= simple_form_for @comment do |f| %>
+        <label>Name<br>
+      <%= f.text_field :name %>
+        </label><br>
+        <label>Email<br>
+      <%= f.text_field :email %>
+        </label><br><br>
+        <label>Comments<br>
+      <%= f.text_area :comments, rows: 10, cols: 50 %>
+        </label><br>
+        <input type="submit" name="submit" value="Done!">
+  <% end %>
+</div>

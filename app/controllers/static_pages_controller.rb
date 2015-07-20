@@ -3,6 +3,7 @@ class StaticPagesController < ApplicationController
   end
 
   def web
+    @comment = Comment.new
   end
 
   def graphics
