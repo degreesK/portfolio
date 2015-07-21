@@ -1,3 +1,9 @@
-<div class="">
-  HEH|Y
+<div>
+  <ul>
+    <% @comments.each do |comment| %>
+      <li>
+        <%= comment.name %>, <%= comment.comments %>
+      </li>
+    <% end %>
+  </ul>
 </div>

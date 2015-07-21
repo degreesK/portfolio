@@ -1,21 +1,34 @@
 /*backgrounds*/
-body#container-about {
+#container-about {
   background-color: black;
 }
 
-body#container-web {
-  background-color: #5b387a;
+#container-web {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(rgba(91,56,122,0),rgba(91,56,122,1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(91,56,122,0),rgba(91,56,122,1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(91,56,122,0),rgba(91,56,122,1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(91,56,122,0),rgba(91,56,122,1)); /* Standard syntax (must be last) */
 }
 
-body#container-graphics {
-  background-color: #3f793c;
+
+#container-graphics {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(rgba(63,121,60,0),rgba(63,121,60,1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(63,121,60,0),rgba(63,121,60,1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(63,121,60,0),rgba(63,121,60,1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(63,121,60,0),rgba(63,121,60,1)); /* Standard syntax (must be last) */
 }
 
-body#container-multi {
+#container-multi {
   background-color: #0e5978;
 }
 
-body#container-art {
+#container-art {
   background-color: #2f3083;
 }
 
@@ -38,7 +51,7 @@ ul.nav-button-list-pages > li {
   margin-top: -50px;
   margin-bottom: -50px;
   font-weight: bold;
-  text-shadow:3px 3px 9px black;
+  // text-shadow:3px 3px 9px black;
   font-size: 1em;
 }
 
@@ -51,7 +64,7 @@ li#home-page :active {
 }
 
 li#about-page :visited {
-  color: grey;
+  color: black;
 }
 
 li#about-page :active {
