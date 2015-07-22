@@ -1,6 +1,13 @@
 /*backgrounds*/
 #container-about {
   background-color: black;
+  // background-color: white;
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)); /* Standard syntax (must be last) */
 }
 
 #container-web {
@@ -25,11 +32,25 @@
 }
 
 #container-multi {
-  background-color: #0e5978;
+  // background-color: #0e5978;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    background: -webkit-linear-gradient(rgba(14,89,120,0),rgba(14,89,120,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(14,89,120,0),rgba(14,89,120,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(14,89,120,0),rgba(14,89,120,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(14,89,120,0),rgba(14,89,120,1)); /* Standard syntax (must be last) */
 }
 
 #container-art {
-  background-color: #2f3083;
+  // background-color: #2f3083;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(rgba(47,48,131,0),rgba(47,48,131,1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(47,48,131,0),rgba(47,48,131,1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(47,48,131,0),rgba(47,48,131,1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(47,48,131,0),rgba(47,48,131,1)); /* Standard syntax (must be last) */
 }
 
 /*navigation on pages*/
@@ -103,6 +124,17 @@ li#art-page :active {
   color: yellow;
 }
 
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+  margin-left: 55px;
+}
+
+.TaniaKelvin {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
 ul.nav-button-list-pages > li :active {
     color: yellow;
 }
@@ -140,6 +172,8 @@ ul.nav-button-list-pages > li :hover {
       0px -5px 50px #7B96B8;}
 }
 
+
+
 /*about page content*/
 .about-info {
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
@@ -174,9 +208,18 @@ ul.nav-button-list-pages > li :hover {
   width: 25%;
 }
 
+#container-about {
+  margin-left: 30px;
+  // max-width: 50px;
+  // max-height: 50px;
+  background-image: url(asset-path('logo-web-cc-dark.jpg'));
+  background-size: 20%;
+  background-repeat: repeat;
+}
+
 /*multimedia page content */
 #manifest {
-  margin-left: 50px;
+  margin-left: 30px;
   margin-right: 20px;
   margin-top: 50px;
   font-size: .75em;
@@ -228,28 +271,33 @@ color: black;
 
 /*web dev page */
 #comments_form {
-  margin-left: 50px;
-  color: grey;
+  margin-left: 2px;
+  color: black;
 }
 
 .web-info {
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   margin-left: 30px;
   // margin-right: 20px;
-  font-size: .75em;
-  color: white;
+  font-size: .60em;
+  color: black;
   text-align: justify;
-  width: 60%;
+  width: 40%;
   height: 70%;
   padding: 10px 25px 10px 25px;
-  margin-top: 50px;
+  // margin-top: 50px;
   // display: inline-block;
   // float: left;
 }
 
 .web-info h1 {
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-  font-size: 1.5em;
-  margin-top: 3px;
-  margin-top: 20px;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.projects {
+  max-width: 300px;
+  margin-left: 10px;
+  float: left;
 }

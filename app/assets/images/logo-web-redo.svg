@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 140 597.9" enable-background="new 0 0 140 597.9" xml:space="preserve">
+<g id="Layer_1" display="none">
+	<g display="inline">
+		<defs>
+			<rect id="SVGID_1_" x="0" y="0" width="140" height="597.9"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#SVGID_2_)" fill="#231F20" d="M115.6,362.6c-0.9,0-1.6-0.1-2.1-0.2v-7.8c0.4-0.1,1.3-0.2,2.4-0.2
+			c2.8,0,4.7,1.3,4.7,3.9C120.6,361,118.7,362.6,115.6,362.6 M115.8,352.3c-2.1,0-3.7,0.2-5,0.4v19.8h2.6v-8
+			c0.6,0.1,1.3,0.2,2.1,0.2c2.5,0,4.7-0.7,6.1-2.2c1-1,1.5-2.5,1.5-4.3c0-1.8-0.7-3.2-1.8-4.2C120.2,352.9,118.4,352.3,115.8,352.3"
+			/>
+		<path clip-path="url(#SVGID_2_)" fill="#231F20" d="M68.4,271.3c5.7-0.4,10.1-2.9,13.1-7.3c3-4.4,4.5-10.5,4.5-18H68.4V271.3z"/>
+		<path clip-path="url(#SVGID_2_)" fill="#231F20" d="M86,321.8c-0.9-18.1-6.7-27.3-17.6-27.7v27.7H34.8V246H17.3v-28.8h68.6V246
+			h34.2c0,9.2-1.2,16.9-3.6,22.9c-2.4,6-6.2,11-11.3,14.9c10.3,7.9,16,20.6,17.1,38.1H86z M0,336.8h140v-140H0V336.8z"/>
+	</g>
+</g>
+<g id="Layer_2" display="none">
+	<g display="inline">
+		<defs>
+			<rect id="SVGID_3_" x="-230.1" y="180.4" width="140" height="140"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_4_)">
+			<path fill="#231F20" d="M-161.7,254.9c5.7-0.4,10.1-2.9,13.1-7.3c3-4.4,4.5-10.5,4.5-18h-17.5V254.9z"/>
+			<g>
+				<path fill="#231F20" d="M-144.1,305.4c-0.9-18.1-6.7-27.3-17.6-27.7v27.7h-33.5v-75.8h-17.5v-28.8h68.6v28.8h34.2
+					c0,9.2-1.2,16.9-3.6,22.9c-2.4,6-6.2,11-11.3,14.9c10.3,7.9,16,20.6,17.1,38.1H-144.1z M-230.1,320.3h140v-140h-140V320.3z"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_3">
+	<g>
+		<path fill="#231F20" d="M68.3,329.9c5.7-0.4,10.1-2.9,13.1-7.3c3-4.4,4.5-10.5,4.5-18H68.3V329.9z"/>
+		<path fill="#231F20" d="M85.9,380.4c-0.9-18.1-6.7-27.3-17.6-27.7v27.7H34.8v-75.8H17.3v-28.8h68.6v28.8H120
+			c0,9.2-1.2,16.9-3.6,22.9c-2.4,6-6.2,11-11.3,14.9c10.3,7.9,16,20.6,17.1,38.1H85.9z M-0.1,395.3h140v-140h-140V395.3z"/>
+	</g>
+</g>
+</svg>
