@@ -199,6 +199,17 @@ ul.nav-button-list-pages > li :hover {
   margin-left: 50px;
   margin-top: 50px;
   width: 25%;
+  border: thin beige groove;
+}
+
+.spy {
+    float: left;
+    display: inline-block;
+    max-width: 500px;
+    max-height: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: thin beige groove;
 }
 
 #container-about {
