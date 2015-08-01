@@ -46,6 +46,8 @@
 ul.nav-button-list-pages {
   list-style-type: none;
   display: inline-block;
+  margin-left: 5px;
+  padding: 0px;
 }
 
 // a {
@@ -169,7 +171,7 @@ ul.nav-button-list-pages > li :hover {
 /*about page content*/
 .about-info {
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-  margin-left: 30px;
+  margin-left: 50px;
   // margin-right: 20px;
   font-size: .75em;
   color: black;
@@ -211,40 +213,83 @@ ul.nav-button-list-pages > li :hover {
     border: thin beige groove;
 }
 
-.circle {
-	border-radius: 50%;
-	width: 200px;
-	height: 200px;
-	/* width and height can be anything, as long as they're equal */
-}
+/*gradient spinning circle*/
+// .circle {
+// 	border-radius: 50%;
+// 	width: 150px;
+// 	height: 150px;
+// 	/* width and height can be anything, as long as they're equal */
+// }
+//
+// /* Create the animation blocks */
+// @keyframes spin {
+// 	from { transform: rotate(0deg); }
+// 	to { transform: rotate(360deg); }
+// }
+//
+// /* Spinning, gradient circle; CSS only! */
+// .circle {
+// 	width: 150px;
+// 	height: 150px;
+//   border-radius:50%;
+//   font-size:30px;
+//   color:black;
+//   line-height:120px;
+//   text-align:center;
+//   background:#000;
+//   margin-left: 50px;
+//   // float: left;
+//
+// 	background-image: -moz-radial-gradient(60px 60px 60deg, circle cover, white 0%, #ab3d48 100%, red 95%);
+// 	background-image: -webkit-radial-gradient(60px 60px, circle cover, white, #ab3d48);
+// 	background-image: radial-gradient(60px 60px 60deg, circle cover, white 0%, #ab3d48 100%, red 95%);
+//
+// 	animation-name: spin;
+// 	animation-duration: 6s;
+// 	animation-iteration-count: infinite;
+// 	animation-timing-function: linear;
+// }
 
-/* Create the animation blocks */
-@keyframes spin {
-	from { transform: rotate(0deg); }
-	to { transform: rotate(360deg); }
-}
+// .about {
+//   animation-name: none;
+//   animation-duration: 0s;
+// }
 
-/* Spinning, gradient circle; CSS only! */
-.circle {
-	width: 200px;
-	height: 200px;
-border-radius:50%;
-font-size:50px;
-color:black;
-line-height:500px;
-text-align:center;
-background:#000;
-
-	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
-	background-image: -webkit-radial-gradient(45px 45px, circle cover, yellow, orange);
-	background-image: radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
-
-	animation-name: spin;
-	animation-duration: 3s; /* 3 seconds */
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-}
-
+/*spinner line circle*/
+// @keyframes spinner {
+//     to {transform: rotate(360deg);}
+// }
+//
+// @-webkit-keyframes spinner {
+//     to {-webkit-transform: rotate(360deg);}
+// }
+//
+// .spinner {
+//     min-width: 100px;
+//     min-height: 100px;
+// }
+//
+// .spinner:before {
+//     content: 'Loading…';
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     width: 200px;
+//     height: 200px;
+//     // margin-top: -10px;
+//     // margin-left: -10px;
+//     margin-right: 100px;
+//     float: left;
+// }
+//
+// .spinner:not(:required):before {
+//     content: '';
+//     border-radius: 50%;
+//     border-top: 2px solid #03ade0;
+//     border-right: 2px solid transparent;
+//     animation: spinner 2s linear infinite;
+//     -webkit-animation: spinner 1s linear infinite;
+// }
 
 
 #container-about {
